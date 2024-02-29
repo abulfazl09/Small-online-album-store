@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Album Shop</title>
+</head>
+
+<body>
+    <main class="container">
+        <!-- navbar -->
+        <nav class="py-3 mb-3 d-flex justify-content-between align-items-center">
+            <div>
+                <button onclick="backPage()" class="btn btn-warning fw-bold"><i class="fa fa-home"></i></button>
+            </div>
+
+            <div>
+                <a href="./cart.htm" class="text-light fs-4 fw-bold position-relative">
+                    <i class="fa fa-cart-shopping"></i>
+                    <span>Cart</span>
+                    <span id="counter" class="d-none">0</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="mb-5 pb-3 border-bottom">
+            <p class="display-1 text-center fw-bold text-light">Your Cart</p>
+        </header>
+
+        <!-- Product Information -->
+        <div id="product-info">
+            <!-- <div class="row">
+                <div class="col px-3">
+                    <img src="./image/0.jpg" alt="product-image" style="width: 100%;">
+                </div>
+                <div class="col px-3 text-light">
+                    <div class="h2">Name</div>
+                    <div class="fs-5 mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum cumque
+                        reiciendis sit odio? Laboriosam temporibus iste alias consectetur id. Corporis sapiente nesciunt
+                        commodi, deleniti autem molestiae explicabo voluptatum minus officiis!</div>
+                    <div class="fs-4 mb-2">$00.00</div>
+                    <button class="btn btn-warning fw-bold">ADD TO CART</button>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- footer -->
+        <footer class="p-4 mt-4 border-top">
+            <div class="row">
+                <div class="col">
+                    <div class="mb-2">
+                        <a href="" class="h5 text-light">
+                            <i class="fab fa-github"></i> <span>Github</span>
+                        </a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="" class="h5 text-light">
+                            <i class="fab fa-telegram"></i> <span>Telegram</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="h5 text-light">
+                            <i class="fab fa-linkedin"></i> Linkedin</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quos
+                        corporis provident,
+                        doloribus excepturi minus obcaecati? Sit, aliquam cumque deserunt consequuntur ipsum quae qui
+                        nihil? Similique perferendis enim culpa facere.</p>
+                </div>
+            </div>
+
+            <div class="mt-5 fs-3 fw-bold text-center text-light">Dewelop By Abulfazl Hajizadeh</div>
+        </footer>
+    </main>
+
+    <script src="./js/store.js"></script>
+    <script src="./js/single.product.js"></script>
+</body>
+
+</html>
